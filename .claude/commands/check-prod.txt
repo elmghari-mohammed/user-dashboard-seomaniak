@@ -1,7 +1,0 @@
-Passe en revue le fichier $ARGUMENTS et vérifie chaque point de la checklist @PROD.md section 9.
-
-Pour chaque point :
-- ✅ si conforme
-- ❌ si non conforme + ligne concernée + correction à apporter
-
-Termine par un score : X/16 points conformes.
