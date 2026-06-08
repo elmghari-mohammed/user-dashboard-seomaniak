@@ -31,3 +31,10 @@ Thumbs.db
 # Cache Vite
 .vite/
 
+.txt
+
+# Fichiers Claude Code (config locale)
+CLAUDE.md
+PROD.md
+SKILL.md
+.claude/
