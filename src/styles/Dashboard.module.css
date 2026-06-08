@@ -1,0 +1,135 @@
+.page {
+  min-height: 100vh;
+  background: var(--color-bg);
+}
+
+.header {
+  padding: 1rem 2rem;
+  border-bottom: 1px solid var(--color-border);
+  background: var(--color-bg);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.userCount {
+  margin-left: auto;
+  color: #666666;
+  font-size: 13px;
+  font-weight: 400;
+  padding: 3px 10px;
+  background: #F2F2F2;
+  border-radius: 20px;
+  border: 1px solid #E0E0E0;
+  white-space: nowrap;
+  transition: var(--transition);
+}
+
+.title {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--color-text-1);
+  line-height: 1.2;
+}
+
+.subtitle {
+  font-size: 0.78rem;
+  color: var(--color-text-2);
+}
+
+.content {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2rem 2rem 0;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.searchWrapper {
+  position: relative;
+  flex: 1;
+  min-width: 200px;
+}
+
+.searchIcon {
+  position: absolute;
+  left: 0.85rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--color-text-3);
+  pointer-events: none;
+}
+
+.searchInput {
+  width: 100%;
+  padding: 0.65rem 0.9rem 0.65rem 2.4rem;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-input);
+  color: var(--color-text-1);
+  font-size: 0.88rem;
+  font-family: inherit;
+  outline: none;
+  transition: border-color var(--transition), box-shadow var(--transition);
+}
+
+.searchInput::placeholder { color: var(--color-text-3); }
+
+.searchInput:focus {
+  border-color: var(--color-accent);
+  box-shadow: var(--shadow-focus);
+}
+
+.addBtn {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.65rem 1.2rem;
+  background: var(--color-accent);
+  border: none;
+  border-radius: var(--radius-btn);
+  color: #fff;
+  font-size: 0.88rem;
+  font-weight: 600;
+  white-space: nowrap;
+  transition: background var(--transition), transform var(--transition);
+}
+
+.addBtn:hover {
+  background: var(--color-accent-dark);
+  transform: translateY(-1px);
+}
+
+.seedBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.25rem;
+  height: 2.25rem;
+  flex-shrink: 0;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-btn);
+  color: var(--color-text-3);
+  transition: background var(--transition), color var(--transition), border-color var(--transition);
+}
+
+.seedBtn:hover {
+  background: var(--color-accent-10);
+  color: var(--color-accent);
+  border-color: var(--color-accent);
+}
