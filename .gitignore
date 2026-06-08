@@ -31,6 +31,3 @@ Thumbs.db
 # Cache Vite
 .vite/
 
-#capture d'écran
-capture/*
-.png
