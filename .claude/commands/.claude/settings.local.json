@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//f/SEOMANIAK/TEST TECHNIQUE SEOMANIAK/**)",
+      "Bash(npm create:*)",
+      "Bash(printf \"2\\\\n\")",
+      "Bash(npx create-vite@latest . --template react)",
+      "Bash(npm install:*)",
+      "Bash(npm run:*)"
+    ]
+  }
+}
